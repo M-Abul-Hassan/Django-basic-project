@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+h1, h2, h3, h4 {
+    margin-bottom: 1rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.navbar {
+    background: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin-left: 20px;
+}
+.nav-links a:hover {
+    color: #007bff;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background-color: #6610f2;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-section h1 {
+    font-size: 3rem;
+}
+.hero-section p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.hero-section .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+.hero-section .btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+.hero-section .btn-light {
+    background-color: white;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+/* About Section */
+.about-section {
+    padding: 3rem 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 3rem 0;
+    background-color: white;
+    text-align: center;
+}
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+}
+.skills-list .skill {
+    flex: 1;
+    padding: 20px;
+}
+.skills-list .skill i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 3rem 0;
+    background-color: #f4f4f4;
+}
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+}
+.project-card {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 3rem 0;
+    text-align: center;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
